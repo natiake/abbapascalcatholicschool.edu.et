@@ -6,6 +6,8 @@ export enum UserRole {
   GUEST = 'GUEST'
 }
 
+export type Language = 'en' | 'am';
+
 export interface User {
   id: string;
   username: string;
